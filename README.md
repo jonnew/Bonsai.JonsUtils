@@ -1,7 +1,19 @@
-## TODO
+## Jon's Utilities for Bonsai
 
- - So much trouble getting the correct native dll to copy to the build directory.
- - I can run the clroepcie-test program fine
- - I can nuget package the clroni library fine and I can see the native liboepcie.dll in there
- - When I run this bonsai package, the liboni.dll is not copied to build directory. I have to do it manually.
- - Also note that this dll needs to placed in whatever has been marked as the startup project's bin/<arch>/<Debug/Release> directory (e.g. if you are using the prototyping project as startup).
+I'm dumping random [Bonsai](https://bonsai-rx.org/) convenience nodes in this repo that might be useful for others. This namespace contains
+
+1. A MatrixMap node for reordering the rows or columns of a matrix of data. This is useful for, e.g. applying a channel map to ephys data.
+2. A OpenCVMatSocket node that can OpenCV Mats over a UDP socket to some other program. They are sent as raw data so some a-priori coordination about matrix size and element type is required.
+
+### Nuget Packaging
+In VS package manager console
+```
+Install-Package NuGet.CommandLine
+```
+then,
+```
+nuget pack Bonsai.JonsUtils.csproj -properties Configuration=Release
+```
+
+### License
+MIT
