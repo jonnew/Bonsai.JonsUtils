@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29926.136
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsai.JonsUtils", "Bonsai.JonsUtils.csproj", "{8550FFC0-6D15-4671-95F2-B55150BDD1B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsai.JonsUtils", "Bonsai.JonsUtils\Bonsai.JonsUtils.csproj", "{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8550FFC0-6D15-4671-95F2-B55150BDD1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8550FFC0-6D15-4671-95F2-B55150BDD1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8550FFC0-6D15-4671-95F2-B55150BDD1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8550FFC0-6D15-4671-95F2-B55150BDD1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C8ED0C7E-8474-45D1-B22C-A649D89BE1F9}
+		SolutionGuid = {4CDABEF6-01E8-46DE-B8D4-1B83B0F5E307}
 	EndGlobalSection
 EndGlobal

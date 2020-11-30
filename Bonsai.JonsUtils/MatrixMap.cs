@@ -46,7 +46,7 @@ namespace Bonsai.JonsUtils
         [Description("Dimension to map. (e.g. 0 = rows.")]
         public Dimension MapDimension { get; set; } = Dimension.ROWS;
 
-        [Description("The map. This is a vector of indicies to map either the rows or colums with.")]
+        [Description("The map. This is a vector of indices to map either the rows or colums with.")]
         public Mat Map { get; set; }
 
     }
