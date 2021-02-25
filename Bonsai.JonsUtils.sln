@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30711.63
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsai.JonsUtils", "Bonsai.JonsUtils\Bonsai.JonsUtils.csproj", "{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}"
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsai.JonsUtils", "Bonsai.JonsUtils\Bonsai.JonsUtils.csproj", "{448BFA33-8556-419C-B317-A69B7D1BCE66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E43BB8E-3D0F-4045-A0FE-B492BD598D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448BFA33-8556-419C-B317-A69B7D1BCE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448BFA33-8556-419C-B317-A69B7D1BCE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448BFA33-8556-419C-B317-A69B7D1BCE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448BFA33-8556-419C-B317-A69B7D1BCE66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4CDABEF6-01E8-46DE-B8D4-1B83B0F5E307}
 	EndGlobalSection
 EndGlobal
