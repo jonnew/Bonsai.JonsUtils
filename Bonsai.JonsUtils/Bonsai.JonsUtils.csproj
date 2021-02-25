@@ -7,7 +7,6 @@
     <Copyright>Copyright © Jonathan P. Newman 2021</Copyright>
     <ProjectUrl>https://github.com/bonsai-rx/pointgrey</ProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageIconUrl>https://bonsai-rx.org/assets/images/bonsai.png</PackageIconUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageTags>Bonsai Rx Jonnew Open Ephys Utilities</PackageTags>
     <IncludeSymbols Condition="'$(Configuration)'=='Release'">true</IncludeSymbols>
@@ -21,11 +20,16 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/jonnew/Bonsai.JonsUtils</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageIcon>oe-logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Bonsai.JonsUtils.svg" />
     <None Remove="Workflows\BoundedAccumulate.bonsai" />
+    <None Include="oe-logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
