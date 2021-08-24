@@ -1,7 +1,7 @@
-﻿using System;
-using System.Reactive.Linq;
+﻿using OpenCV.Net;
+using System;
 using System.ComponentModel;
-using OpenCV.Net;
+using System.Reactive.Linq;
 
 namespace Bonsai.JonsUtils
 {

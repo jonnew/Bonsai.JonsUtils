@@ -38,7 +38,7 @@ namespace Bonsai.JonsUtils
 
             var remainder = source.Cols - windowElements;
 
-            if (samples != null && 
+            if (samples != null &&
                 windowElements > 0 &&
                 remainder != 0) // End of buffer
             {
@@ -51,7 +51,8 @@ namespace Bonsai.JonsUtils
 
                 offset += remainder;
 
-            } else if (offset >= samples.Cols) 
+            }
+            else if (offset >= samples.Cols)
             {
                 offset = 0;
             }

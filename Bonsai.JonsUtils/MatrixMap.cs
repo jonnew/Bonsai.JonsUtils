@@ -1,8 +1,8 @@
-﻿using System;
+﻿using OpenCV.Net;
+using System;
+using System.ComponentModel;
 using System.Linq;
 using System.Reactive.Linq;
-using System.ComponentModel;
-using OpenCV.Net;
 
 namespace Bonsai.JonsUtils
 {
@@ -11,7 +11,6 @@ namespace Bonsai.JonsUtils
     [Description("Map channels or columns of matrix.")]
     public class MatrixMap
     {
-        //Mat MatMap(Tuple<Mat, Mat> source)
         Mat MatMap(Mat source)
         {
             var output = new Mat(source.Size, source.Depth, source.Channels);

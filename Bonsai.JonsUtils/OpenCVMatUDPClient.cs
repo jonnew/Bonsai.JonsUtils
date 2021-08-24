@@ -1,14 +1,14 @@
-﻿using System;
-using System.Reactive.Linq;
+﻿using OpenCV.Net;
+using System;
 using System.ComponentModel;
 using System.Net.Sockets;
+using System.Reactive.Linq;
 using System.Runtime.InteropServices;
-using OpenCV.Net;
 
 namespace Bonsai.JonsUtils
 {
     [Description("Sends a 2D Open CV Mat to a datagram (UDP) socket.")]
-    public class OpenCVMatSocket : Sink<Mat>
+    public class OpenCVMatUDPClient : Sink<Mat>
     {
         [Description("Address")]
         public string addr { get; set; } = "localhost";

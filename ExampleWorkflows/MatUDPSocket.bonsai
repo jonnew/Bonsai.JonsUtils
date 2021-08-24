@@ -18,7 +18,7 @@
         </Combinator>
       </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="p1:OpenCVMatSocket">
+        <Combinator xsi:type="p1:OpenCVMatUDPClient">
           <p1:addr>localhost</p1:addr>
           <p1:port>5000</p1:port>
         </Combinator>

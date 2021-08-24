@@ -1,15 +1,14 @@
-﻿using System;
-using System.Reactive.Linq;
+﻿using OpenCV.Net;
+using System;
 using System.ComponentModel;
 using System.Net.Sockets;
+using System.Reactive.Linq;
 using System.Runtime.InteropServices;
-using OpenCV.Net;
-//using System.Reactive.Disposables;
 
 namespace Bonsai.JonsUtils
 {
     [Description("Sends a 2D Open CV Mat to a TCP socket.")]
-    public class OpenCVMatTCPSocket : Sink<Mat>
+    public class OpenCVMatTCPClient : Sink<Mat>
     {
         [Description("Address")]
         public string addr { get; set; } = "localhost";
@@ -26,10 +25,8 @@ namespace Bonsai.JonsUtils
                     var c = new TcpClient();
                     c.Connect(addr, port);
                     return c.GetStream();
-                    // Is c being disposed?
-                    //return new CompositeDisposable(c, s);
                 },
-                s =>
+                s => // When s is disposed, c should also be.
                 {
                     return source.Do(value =>
                     {
